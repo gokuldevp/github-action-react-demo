@@ -32,4 +32,4 @@ jobs: # Defines a collection of jobs to be run as part of the workflow
           - name: Build Application # A step named "Build Application"
             run: npm run build # Runs the command to build the application
           - name: Deploy Application # A step named "Deploy Application"
-            run: echo "Deploying application..." # A placeholder command for deployment
+            run: echo "Deploying application." # A placeholder command for deployment
