@@ -1,0 +1,9 @@
+name: output_workflow
+on: workflow_dispatch
+
+jobs:
+  info:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Output github context
+        run: echo "${{ toJson(github) }}"" # A step that outputs the GitHub context as a JSON string, expression used to convert the github context to JSON format
